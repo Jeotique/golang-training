@@ -1,0 +1,16 @@
+* print()
+Permet d'écrire un texte qui sera ensuite affiché dans la console
+* println()
+Permet d'écrire un texte qui sera ensuite affiché dans la console avec un retour à la ligne
+* fmt.Printf()
+Permet d'écrire un texte avec différente variable dans la console
+Variables :
+- %s : string
+- %d : int
+- %t : bool
+(On en verra plus plutard)
+
+Afficher dans la console en utilisant les 3 fonctions le texte suivant :
+
+Hello worldHello world
+Hello world (10)

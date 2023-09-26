@@ -1,0 +1,17 @@
+Il existe différente manière de déclarer une variable :
+Première :
+* variable := 20
+Sera de type "int"
+Deuxième :
+* var variable int = 20
+Sera de type "int"
+
+Avec la deuxième méthode il est possible de ne pas assigner de valeur :
+* var variable int
+Sera de type "int" et de valeur 0
+
+Valeur par défaut :
+* int = 0
+* string = ""
+* float = 0
+* bool = false

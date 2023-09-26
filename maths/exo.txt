@@ -1,0 +1,43 @@
+Addition :
+
+* variable = variable + 1
+Permet d'ajouter 1
+* variable++
+Permet d'ajouter 1
+* variable += 3
+Permet d'ajouter 3
+
+Soustraction :
+
+* variable = variable - 1
+Permet de retirer 1
+* variable--
+Permet de retirer 1
+* variable -= 3
+Permet de retirer 3
+
+Multiplication :
+
+* variable = variable * 1
+Multiplie par 1
+* variable *= 2
+Multiplie par 2
+
+Division :
+
+* variable = variable / 1
+Divise par 1
+* variable /= 2
+Divise par 2
+
+Créer une variable "nombre" égal = 1
+* nombre := 1
+
+- Ajouter 1
+- Ajouter 3
+- Retirer 2
+- Multiplier par 4
+- Diviser par 2
+- Afficher le résultat
+
+* Le résultat devrait être 6

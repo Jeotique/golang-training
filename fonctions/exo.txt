@@ -1,0 +1,44 @@
+On peut créer des fonctions simplement avec le mot clé "func"
+* func MyFunction()
+Suivis d'accolade pour répresenter un bloc de code
+* func MyFunction() { }
+
+On peut aussi créer des fonctions prennant des paramètres,
+Pour cela dans les parenthéses ont entre, le nom de la variable (qui est personnel) et le type
+* func MyFunction(variable int) { }
+La variable "variable" est ici de type "int" et pourra être utilisé dans le bloc de code
+Lorqu'on appelera cette fonction il faudra donc y rentrer la variable
+* MyFunction(10)
+Avec un "int"
+
+Une fonction peut aussi demander plusieurs paramètres de différents type
+* func MyFunction(monString string, monInt int) { }
+Pour l'appeler :
+*  MyFunction("voici un string", 10)
+
+Une fonction peut aussi retourner des valeurs, pour cela le type est à indiquer après les parenthèses et avant l'accolade
+* MyFunction() bool { }
+Ici on retournera un booléan (true or false)
+Pour cela on utilise le mot clé "return"
+* MyFunction() bool {
+    return true
+}
+Cette fonction retourne "true"
+Comment l'appeler :
+* variable := MyFunction()
+"variable" sera donc égal à "true"
+
+Exo :
+
+- Créer une fonction qui écrira dans la console "Trop fort" avec un retour à la ligne
+- Créer une fonction qui prend en paramètre un nombre et qui retourne "true" dans une "variable" si le nombre est plus grand que 5
+- Appeler les fonctions dans main() dans l'ordre
+
+Exemple :
+MyFunction()
+variable := MyFunction2(10)
+print(variable)
+
+Console :
+Trop fort
+true
